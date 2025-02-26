@@ -27,7 +27,7 @@ function LandingPage() {
           <img 
             src="https://i.gifer.com/Nt6v.gif" 
             alt="Media Player Animation" 
-            style={{ height: "250px", objectFit: "cover" }} 
+            style={{ height: "250px", objectFit: "cover",borderRadius:"30px" }} 
           />
         </Col>
         
@@ -42,8 +42,8 @@ function LandingPage() {
 
         <div className="d-flex flex-row justify-content-center align-items-center w-100 flex-wrap my-5">
           
-          <Card style={{ width: '18rem', margin: '15px' }} className="bg-primary">
-            <Card.Img variant="top" height="300px" src="https://cdn-icons-png.flaticon.com/512/5425/5425783.png" />
+          <Card style={{ width: '15rem', margin: '15px'}} className="bg-primary">
+            <Card.Img variant="top" height="200px"  src="https://cdn-icons-png.flaticon.com/512/5425/5425783.png" />
             <Card.Body>
               <Card.Title>Managing Videos</Card.Title>
               <Card.Text>
@@ -53,8 +53,8 @@ function LandingPage() {
             </Card.Body>
           </Card>
 
-          <Card style={{ width: '18rem', margin: '15px' }} className="bg-primary">
-            <Card.Img variant="top" height="300px" src="https://icon-library.com/images/categorize-icon/categorize-icon-0.jpg" />
+          <Card style={{ width: '15rem', margin: '15px' }} className="bg-primary">
+            <Card.Img variant="top" height="200px" src="https://icon-library.com/images/categorize-icon/categorize-icon-0.jpg" />
             <Card.Body>
               <Card.Title>Categorised Video</Card.Title>
               <Card.Text>
@@ -64,8 +64,8 @@ function LandingPage() {
             </Card.Body>
           </Card>
 
-          <Card style={{ width: '18rem', margin: '15px' }} className="bg-primary">
-            <Card.Img variant="top" height="300px" src="https://cdn-icons-png.flaticon.com/512/6680/6680955.png" />
+          <Card style={{ width: '15rem', margin: '15px' }} className="bg-primary">
+            <Card.Img variant="top" height="200px" src="https://cdn-icons-png.flaticon.com/512/6680/6680955.png" />
             <Card.Body>
               <Card.Title>Custom Playlists</Card.Title>
               <Card.Text>
@@ -81,12 +81,12 @@ function LandingPage() {
 
       {/* Details Section */}
 
-      <div className="container border border-2 d-flex align-items-center justify-content-center mt-5 p-3">
+      <div className="container border border-2 rounded-4 d-flex align-items-center justify-content-center my-5 py-3">
         <div className="col-lg-5">
-          <h4 className='text-warning fw-bolder'>Simple.Powerful & Fast</h4>
-          <h6 className='m-5'><span className='text-warning fw-bolder'>Play Everything</span>:Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, iste. Accusantium ducimus reprehenderit dolore nulla odit molestiae vero neque pariatur.</h6>
-          <h6 className='m-5'><span className='text-warning fw-bolder'>Play Everything</span>:Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, iste. Accusantium ducimus reprehenderit dolore nulla odit molestiae vero neque pariatur.</h6>
-          <h6 className='m-5'><span className='text-warning fw-bolder'>Play Everything</span>:Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, iste. Accusantium ducimus reprehenderit dolore nulla odit molestiae vero neque pariatur.</h6>
+          <h4 className='text-warning fw-bolder mt-4'>Simple.Powerful & Fast</h4>
+          <h6 className='m-5'><span className='text-warning fw-bolder'>Play Everything</span> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, iste. Accusantium ducimus reprehenderit dolore nulla odit molestiae vero neque pariatur.</h6>
+          <h6 className='m-5'><span className='text-warning fw-bolder'>Play Everything</span> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, iste. Accusantium ducimus reprehenderit dolore nulla odit molestiae vero neque pariatur.</h6>
+          <h6 className='m-5'><span className='text-warning fw-bolder'>Play Everything</span> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, iste. Accusantium ducimus reprehenderit dolore nulla odit molestiae vero neque pariatur.</h6>
         </div>
         <div className="col-lg-5 ms-2">
 

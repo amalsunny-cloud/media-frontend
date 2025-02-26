@@ -62,7 +62,7 @@ const handleAdd = async()=>{
     <>
 
     <div className='d-flex'>
-      <h2>Upload Videos</h2>
+      <h2 className='ms-2'>Upload Videos</h2>
       <button onClick={handleShow} className='btn'> <i className="fa-solid fa-upload fa-beat-fade"></i></button>
     </div>
 

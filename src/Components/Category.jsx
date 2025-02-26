@@ -108,7 +108,7 @@ function Category({dropVideoResponse}) {
         <Modal.Body>
         <Form>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-        <Form.Label>Category Name</Form.Label>
+        <Form.Label>Category Name:</Form.Label>
         <Form.Control type="text" placeholder="Enter a Category Name" onChange={e=>setCategoryName(e.target.value)} />
       </Form.Group>
 

@@ -39,7 +39,7 @@ function WatchHistory() {
   return (
     <>
       <div className="container mt-5 mb-3 d-flex justify-content-between">
-        <h2>watch-History</h2>
+        <h2>Watch-History</h2>
         <Link style={{textDecoration:"none",color:"blueviolet",fontSize:"30px"}} to={"/home"}>Back to Home <i className="fa-solid fa-arrow-rotate-left fa-beat-fade"></i></Link>
       </div>
 

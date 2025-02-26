@@ -65,7 +65,7 @@ function View({uploadVideoResponse,setDropVideoResponse}) {
 
   return (
     <>
-      <h2 className='text-info'>All Videos</h2>
+      <h2 className='text-info ms-5'>All Videos</h2>
 
       <Row droppable="true" onDragOver={e=>dragOver(e)}   onDrop={e=>videoDropped(e)}>
        { 
@@ -73,7 +73,7 @@ function View({uploadVideoResponse,setDropVideoResponse}) {
           <Col key={index} sm={12} md={6} lg={4}>
             <VideoCard video={video} setDeleteVideoResponse={setDeleteVideoResponse}/>
             </Col>
-      )):<p className='text-danger'>Nothing to Display</p>
+      )):<p className='text-danger ms-5'>Nothing to Display</p>
     }
       </Row>
     </>
