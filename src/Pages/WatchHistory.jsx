@@ -44,7 +44,7 @@ function WatchHistory() {
       </div>
 
 
-      <div className="container mt-5 mb-3 w-100">
+      <div className="container mt-5 mb-3 w-100" style={{height:"300px"}}>
         <table className='table shadow w-100 p-3 m-2'>
           <tr>
             <th>#</th>
