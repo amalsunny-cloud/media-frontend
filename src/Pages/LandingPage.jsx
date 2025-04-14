@@ -12,9 +12,9 @@ function LandingPage() {
         <Col></Col>
         <Col lg={5}>
           <h1 style={{ color: "blueviolet", fontSize: "40px" }}>
-            Welcome to <span className="text-warning">Media-Player</span>
+            Welcome to <span className="text-success">Media-Player</span>
           </h1>
-          <p>
+          <p style={{color:"white",paddingTop:"10px",paddingBottom:"20px"}}>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
             accusamus dicta beatae commodi rem reprehenderit autem quaerat
             expedita ratione laudantium.
@@ -38,37 +38,37 @@ function LandingPage() {
       {/*Card Section */}
 
       <div className="container mt-5 mb-5 d-flex justify-content-center align-items-center flex-column w-100">
-        <h2 className="text-center text-warning">Features</h2>
+        <h2 className="text-center text-success">Features</h2>
 
         <div className="d-flex flex-row justify-content-center align-items-center w-100 flex-wrap my-5">
           
-          <Card style={{ width: '15rem', margin: '15px'}} className="bg-primary">
+          <Card style={{ width: '15rem', margin: '15px'}} className="bg-success">
             <Card.Img variant="top" height="200px"  src="https://cdn-icons-png.flaticon.com/512/5425/5425783.png" />
             <Card.Body>
-              <Card.Title>Managing Videos</Card.Title>
-              <Card.Text>
+              <Card.Title className='text-dark text-decoration-underline'>Managing Videos</Card.Title>
+              <Card.Text className='text-dark'>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </Card.Text>
               <Button variant="dark">Go somewhere</Button>
             </Card.Body>
           </Card>
 
-          <Card style={{ width: '15rem', margin: '15px' }} className="bg-primary">
+          <Card style={{ width: '15rem', margin: '15px' }} className="bg-success">
             <Card.Img variant="top" height="200px" src="https://icon-library.com/images/categorize-icon/categorize-icon-0.jpg" />
             <Card.Body>
-              <Card.Title>Categorised Video</Card.Title>
-              <Card.Text>
+              <Card.Title className='text-dark text-decoration-underline'>Categorised Video</Card.Title>
+              <Card.Text className='text-dark'>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </Card.Text>
               <Button variant="dark">Go somewhere</Button>
             </Card.Body>
           </Card>
 
-          <Card style={{ width: '15rem', margin: '15px' }} className="bg-primary">
+          <Card style={{ width: '15rem', margin: '15px' }} className="bg-success">
             <Card.Img variant="top" height="200px" src="https://cdn-icons-png.flaticon.com/512/6680/6680955.png" />
             <Card.Body>
-              <Card.Title>Custom Playlists</Card.Title>
-              <Card.Text>
+              <Card.Title className='text-dark text-decoration-underline'>Custom Playlists</Card.Title>
+              <Card.Text className='text-dark'>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </Card.Text>
               <Button variant="dark">Go somewhere</Button>
@@ -83,7 +83,7 @@ function LandingPage() {
 
       <div className="container border border-2 rounded-4 d-flex align-items-center justify-content-center my-5 py-3">
         <div className="col-lg-5">
-          <h4 className='text-warning fw-bolder mt-4'>Simple.Powerful & Fast</h4>
+          <h4 className='text-success fw-bolder mt-4'>Simple.Powerful & Fast</h4>
           <h6 className='m-5'><span className='text-warning fw-bolder'>Play Everything</span> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, iste. Accusantium ducimus reprehenderit dolore nulla odit molestiae vero neque pariatur.</h6>
           <h6 className='m-5'><span className='text-warning fw-bolder'>Play Everything</span> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, iste. Accusantium ducimus reprehenderit dolore nulla odit molestiae vero neque pariatur.</h6>
           <h6 className='m-5'><span className='text-warning fw-bolder'>Play Everything</span> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, iste. Accusantium ducimus reprehenderit dolore nulla odit molestiae vero neque pariatur.</h6>

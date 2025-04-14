@@ -42,7 +42,6 @@ const handleAdd = async()=>{
     //api call - upload video to json server
 
     const result = await uploadVideoAPI(uploadVideo);
-    // console.log(result);
 
     if(result.status>=200 && result.status<300){
       alert("Video Uploaded")
@@ -62,7 +61,7 @@ const handleAdd = async()=>{
     <>
 
     <div className='d-flex'>
-      <h2 className='ms-2'>Upload Videos</h2>
+      <h2 className='ms-2 text-success'>Upload Videos</h2>
       <button onClick={handleShow} className='btn'> <i className="fa-solid fa-upload fa-beat-fade"></i></button>
     </div>
 
@@ -74,7 +73,7 @@ const handleAdd = async()=>{
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title>Video Details</Modal.Title>
+          <Modal.Title className='text-dark'>Video Details</Modal.Title>
         </Modal.Header>
         <Modal.Body>
         <Form>

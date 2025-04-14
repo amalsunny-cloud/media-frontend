@@ -19,7 +19,7 @@ function Home() {
           <Add setUploadVideoResponse={setUploadVideoResponse}/>
         </div>
 
-        <Link to={'/watch-history'} style={{textDecoration:'none',fontSize:"26px"}} className='<i class="fa-solid fa-right-to-bracket"></i>'>Watch History</Link>
+        <Link to={'/watch-history'} style={{textDecoration:'none',fontSize:"26px"}} className='<i class="fa-solid fa-right-to-bracket"></i> text-success'>Watch History</Link>
       </div>
 
 

@@ -73,9 +73,6 @@ function Category({dropVideoResponse}) {
     
   }
 
-  // console.log(allCategories);
-  
-
 
   useEffect(()=>{
     getCategories()

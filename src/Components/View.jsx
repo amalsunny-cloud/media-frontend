@@ -65,7 +65,7 @@ function View({uploadVideoResponse,setDropVideoResponse}) {
 
   return (
     <>
-      <h2 className='text-info ms-5'>All Videos</h2>
+      <h2 className='text-success ms-5'>All Videos</h2>
 
       <Row droppable="true" onDragOver={e=>dragOver(e)}   onDrop={e=>videoDropped(e)}>
        { 
