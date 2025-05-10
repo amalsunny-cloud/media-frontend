@@ -10,7 +10,7 @@ function LandingPage() {
     {/*Header*/}
       <Row className="my-5 align-items-center justify-content-center w-100" style={{ height: "400px" }}>
         <Col></Col>
-        <Col lg={5}>
+        <Col lg={6}>
           <h1 style={{ color: "blueviolet", fontSize: "40px" }}>
             Welcome to <span className="text-success">Media-Player</span>
           </h1>
@@ -43,7 +43,7 @@ function LandingPage() {
         <div className="d-flex flex-row justify-content-center align-items-center w-100 flex-wrap my-5">
           
           <Card style={{ width: '15rem', margin: '15px'}} className="bg-success">
-            <Card.Img variant="top" height="200px"  src="https://cdn-icons-png.flaticon.com/512/5425/5425783.png" />
+            <Card.Img variant="top" height="200px" style={{padding:"20px 40px"}}  src="https://cdn-icons-png.flaticon.com/512/5425/5425783.png" />
             <Card.Body>
               <Card.Title className='text-dark text-decoration-underline'>Managing Videos</Card.Title>
               <Card.Text className='text-dark'>
@@ -54,7 +54,7 @@ function LandingPage() {
           </Card>
 
           <Card style={{ width: '15rem', margin: '15px' }} className="bg-success">
-            <Card.Img variant="top" height="200px" src="https://icon-library.com/images/categorize-icon/categorize-icon-0.jpg" />
+            <Card.Img variant="top" height="200px" style={{padding:"25px 35px",paddingBottom:"10px"}} src="https://icon-library.com/images/categorize-icon/categorize-icon-0.jpg" />
             <Card.Body>
               <Card.Title className='text-dark text-decoration-underline'>Categorised Video</Card.Title>
               <Card.Text className='text-dark'>
@@ -65,7 +65,7 @@ function LandingPage() {
           </Card>
 
           <Card style={{ width: '15rem', margin: '15px' }} className="bg-success">
-            <Card.Img variant="top" height="200px" src="https://cdn-icons-png.flaticon.com/512/6680/6680955.png" />
+            <Card.Img variant="top" height="200px" style={{padding:"5px 20px"}} src="https://cdn-icons-png.flaticon.com/512/6680/6680955.png" />
             <Card.Body>
               <Card.Title className='text-dark text-decoration-underline'>Custom Playlists</Card.Title>
               <Card.Text className='text-dark'>
@@ -91,7 +91,7 @@ function LandingPage() {
         <div className="col-lg-5 ms-2">
 
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/3LOUcK5A65I?si=BzUI33q3TRN-no2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hoNb6HuNmU0?si=Lxgu-9qF2tSUckLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullscreen></iframe>
         </div>
       </div>
     </>

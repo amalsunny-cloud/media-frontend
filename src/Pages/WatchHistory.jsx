@@ -46,7 +46,7 @@ function WatchHistory() {
 
       <div className="container mt-5 mb-3 w-100" style={{height:"300px"}}>
         <table className='table shadow p-3 m-2 border border-2'>
-          <tr className='border border-2'>
+          <tr className='border border-2 text-center'>
             <th>#</th>
             <th>Title</th>
             <th>Video URL</th>
@@ -56,7 +56,7 @@ function WatchHistory() {
           {
             history?.length>0?history.map((video,index)=>(
             
-            <tr className='border border-2'>
+            <tr className='border border-2 text-center'>
             <td>{index+1}</td>
             <td>{video?.caption}</td>
             <td><a href={video?.link} target='_blank'>{video?.link} </a></td>

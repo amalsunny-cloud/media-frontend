@@ -1,16 +1,16 @@
 import React from 'react'
 import { Container,Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-
+import playImage from '../assets/Play.png'
 
 function Header() {
   return (
     <>
-      <Navbar className='bg-primary'>
+      <Navbar className='bg-white'>
         <Container>
           <Link to={'/'} style={{textDecoration:"none"}}>
-            <Navbar.Brand href="" className='text-light fw-bold'>
-              <img src="https://w7.pngwing.com/pngs/15/44/png-transparent-windows-media-player-computer-icons-play-button-miscellaneous-orange-windows-media.png" width="28" height="28" alt="" className='d-inline-block align-top' />{ ' '}
+            <Navbar.Brand href="" className='text-primary fw-bold'>
+              <img src={playImage} width="28" height="28" alt="" className='d-inline-block align-top' />{ ' '}
               Media Player
             </Navbar.Brand>
           </Link>
