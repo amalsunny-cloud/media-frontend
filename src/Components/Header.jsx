@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container,Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import playImage from '../assets/Play.png'
+import playImage from '../assets/play.png'
 
 function Header() {
   return (
