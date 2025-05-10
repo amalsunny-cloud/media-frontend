@@ -78,22 +78,22 @@ const handleAdd = async()=>{
         <Modal.Body>
         <Form>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-        <Form.Label>Video Id</Form.Label>
+        <Form.Label>Video Id:</Form.Label>
         <Form.Control type="text" placeholder="Video Id" onChange={(e)=>setUploadVideo({...uploadVideo,id:e.target.value})}/>
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
-        <Form.Label>Video Title</Form.Label>
+        <Form.Label>Video Title:</Form.Label>
         <Form.Control type="text" placeholder="Video Title" onChange={(e)=>setUploadVideo({...uploadVideo,caption:e.target.value})}/>
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput3">
-        <Form.Label>Image URL</Form.Label>
+        <Form.Label>Image URL:</Form.Label>
         <Form.Control type="text" placeholder="Image URL" onChange={(e)=>setUploadVideo({...uploadVideo,url:e.target.value})}/>
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput4">
-        <Form.Label>Video URL</Form.Label>
+        <Form.Label>Video URL:</Form.Label>
         <Form.Control type="text" placeholder="Video URL" onChange={getYoutubeLink}/>
       </Form.Group>
      

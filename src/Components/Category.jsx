@@ -140,7 +140,7 @@ function Category({dropVideoResponse}) {
         </Row>
       </div>
 
-    )):<p className='text-danger'>No categories created</p>
+    )):<p className='text-danger'>No categories created.</p>
     }
      
     </>
