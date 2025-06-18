@@ -45,23 +45,23 @@ function WatchHistory() {
 
 
       <div className="container mt-5 mb-3 w-100" style={{height:"300px"}}>
-        <table className='table shadow p-3 m-2 border border-2'>
+        <table className='table shadow p-3 m-2 border border-1'>
           <tr className='border border-2 text-center'>
-            <th>#</th>
-            <th>Title</th>
-            <th>Video URL</th>
-            <th>Time stamp</th>
-            <th>Action</th>
+            <th className='border border-2 py-3'>#</th>
+            <th className='border border-2 py-3'>Title</th>
+            <th className='border border-2 py-3'>Video URL</th>
+            <th className='border border-2 py-3'>Time stamp</th>
+            <th className='border border-2 py-3'>Action</th>
           </tr>
           {
             history?.length>0?history.map((video,index)=>(
             
             <tr className='border border-2 text-center'>
-            <td>{index+1}</td>
-            <td>{video?.caption}</td>
-            <td><a href={video?.link} target='_blank'>{video?.link} </a></td>
-            <td>{video?.timeStamp}</td>
-            <td><button className='text-danger btn' onClick={()=>removeVideoHistory(video?.id)}><i class="fa-solid fa-trash"></i></button></td>
+            <td className='border border-2 px-2'>{index+1}</td>
+            <td className='border border-2 px-2'>{video?.caption}</td>
+            <td className='border border-2 px-2'><a href={video?.link} target='_blank'>{video?.link} </a></td>
+            <td className='border border-2'>{video?.timeStamp}</td>
+            <td className='border border-2'><button className='text-danger btn' onClick={()=>removeVideoHistory(video?.id)}><i class="fa-solid fa-trash"></i></button></td>
           </tr>
           )):<p className='text-danger fw-bolder'>Nothing to display</p>
           }

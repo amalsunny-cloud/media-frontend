@@ -38,7 +38,7 @@ function VideoCard({video,insideCategory, setDeleteVideoResponse}) {
 
   return (
     <>
-       <Card style={{ width: '18rem' }}  draggable onDragStart={e=>dragStarted(e,video?.id)}>
+       <Card style={{ width: '18rem',padding:"10px" }}  draggable onDragStart={e=>dragStarted(e,video?.id)}>
       <Card.Img variant="top" width={"100%"} onClick={handleShow}  src={video.url}/>
       <Card.Body>
         <div className="d-flex justify-content-between">

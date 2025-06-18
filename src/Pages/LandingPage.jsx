@@ -40,11 +40,11 @@ function LandingPage() {
       <div className="container mt-5 mb-5 d-flex justify-content-center align-items-center flex-column w-100">
         <h2 className="text-center text-success">Features</h2>
 
-        <div className="d-flex flex-row justify-content-center align-items-center w-100 flex-wrap my-5">
+        <div className="d-flex flex-row justify-content-evenly align-items-center w-100 flex-wrap my-5">
           
-          <Card style={{ width: '15rem', margin: '15px'}} className="bg-success">
+          <Card style={{ width: '17rem', margin: '15px'}} className="bg-success rounded-4 px-2">
             <Card.Img variant="top" height="200px" style={{padding:"20px 40px"}}  src="https://cdn-icons-png.flaticon.com/512/5425/5425783.png" />
-            <Card.Body>
+            <Card.Body className='d-flex justify-content-center flex-column'>
               <Card.Title className='text-dark text-decoration-underline'>Managing Videos</Card.Title>
               <Card.Text className='text-dark'>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -53,9 +53,9 @@ function LandingPage() {
             </Card.Body>
           </Card>
 
-          <Card style={{ width: '15rem', margin: '15px' }} className="bg-success">
+          <Card style={{ width: '17rem', margin: '15px' }} className="bg-success rounded-4 px-2">
             <Card.Img variant="top" height="200px" style={{padding:"25px 35px",paddingBottom:"10px"}} src="https://icon-library.com/images/categorize-icon/categorize-icon-0.jpg" />
-            <Card.Body>
+            <Card.Body className='d-flex justify-content-center flex-column'>
               <Card.Title className='text-dark text-decoration-underline'>Categorised Video</Card.Title>
               <Card.Text className='text-dark'>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -64,9 +64,9 @@ function LandingPage() {
             </Card.Body>
           </Card>
 
-          <Card style={{ width: '15rem', margin: '15px' }} className="bg-success">
+          <Card style={{ width: '17rem', margin: '15px' }} className="bg-success rounded-4 px-2">
             <Card.Img variant="top" height="200px" style={{padding:"5px 20px"}} src="https://cdn-icons-png.flaticon.com/512/6680/6680955.png" />
-            <Card.Body>
+            <Card.Body className='d-flex justify-content-center flex-column'>
               <Card.Title className='text-dark text-decoration-underline'>Custom Playlists</Card.Title>
               <Card.Text className='text-dark'>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -82,7 +82,7 @@ function LandingPage() {
       {/* Details Section */}
 
       <div className="container border border-2 rounded-4 d-flex align-items-center justify-content-center my-5 py-3">
-        <div className="col-lg-5">
+        <div className="col-lg-6">
           <h4 className='text-success fw-bolder mt-4'>Simple.Powerful & Fast</h4>
           <h6 className='m-5'><span className='text-warning fw-bolder'>Play Everything</span> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, iste. Accusantium ducimus reprehenderit dolore nulla odit molestiae vero neque pariatur.</h6>
           <h6 className='m-5'><span className='text-warning fw-bolder'>Play Everything</span> : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, iste. Accusantium ducimus reprehenderit dolore nulla odit molestiae vero neque pariatur.</h6>

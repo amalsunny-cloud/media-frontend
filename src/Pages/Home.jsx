@@ -24,7 +24,7 @@ function Home() {
 
 
       <div className="container-fluid mt-5 w-100 row">
-        <div className="col-lg-9 all-videos">
+        <div className="col-lg-9 all-videos ps-5">
           <View uploadVideoResponse={uploadVideoResponse} setDropVideoResponse={setDropVideoResponse}/>
         </div>
         <div className="col-lg-3 all-category">
