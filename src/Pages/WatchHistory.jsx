@@ -59,7 +59,7 @@ function WatchHistory() {
             <tr className='border border-2 text-center'>
             <td className='border border-2 px-2'>{index+1}</td>
             <td className='border border-2 px-2'>{video?.caption}</td>
-            <td className='border border-2 px-2'><a href={video?.link} target='_blank'>{video?.link} </a></td>
+            <td className='border border-2 px-2'><a href={video?.link} style={{textDecoration:"none"}} target='_blank'>{video?.link} </a></td>
             <td className='border border-2'>{video?.timeStamp}</td>
             <td className='border border-2'><button className='text-danger btn' onClick={()=>removeVideoHistory(video?.id)}><i class="fa-solid fa-trash"></i></button></td>
           </tr>

@@ -19,7 +19,7 @@ function LandingPage() {
             accusamus dicta beatae commodi rem reprehenderit autem quaerat
             expedita ratione laudantium.
           </p>
-          <Link style={{textDecoration:"none"}} to={'/home'} className="btn btn-info">Get Started</Link>
+          <Link style={{textDecoration:"none",borderRadius:"30px"}} to={'/home'} className="btn btn-info">Get Started</Link>
         </Col>
         
         <Col lg={3}>
@@ -38,7 +38,7 @@ function LandingPage() {
       {/*Card Section */}
 
       <div className="container mt-5 mb-5 d-flex justify-content-center align-items-center flex-column w-100">
-        <h2 className="text-center text-success">Features</h2>
+        <h1 className="text-center text-success">Features</h1>
 
         <div className="d-flex flex-row justify-content-evenly align-items-center w-100 flex-wrap my-5">
           
@@ -49,18 +49,18 @@ function LandingPage() {
               <Card.Text className='text-dark'>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </Card.Text>
-              <Button variant="dark">Go somewhere</Button>
+              <Button variant="dark" style={{borderRadius:"30px"}}>Go somewhere</Button>
             </Card.Body>
           </Card>
 
           <Card style={{ width: '17rem', margin: '15px' }} className="bg-success rounded-4 px-2">
-            <Card.Img variant="top" height="200px" style={{padding:"25px 35px",paddingBottom:"10px"}} src="https://icon-library.com/images/categorize-icon/categorize-icon-0.jpg" />
+            <Card.Img variant="top" height="200px" style={{padding:"25px 35px",paddingBottom:"10px"}} src="https://www.svgrepo.com/download/442466/category.svg" />
             <Card.Body className='d-flex justify-content-center flex-column'>
               <Card.Title className='text-dark text-decoration-underline'>Categorised Video</Card.Title>
               <Card.Text className='text-dark'>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </Card.Text>
-              <Button variant="dark">Go somewhere</Button>
+              <Button variant="dark" style={{borderRadius:"30px"}}>Go somewhere</Button>
             </Card.Body>
           </Card>
 
@@ -71,7 +71,7 @@ function LandingPage() {
               <Card.Text className='text-dark'>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
               </Card.Text>
-              <Button variant="dark">Go somewhere</Button>
+              <Button variant="dark" style={{borderRadius:"30px"}}>Go somewhere</Button>
             </Card.Body>
           </Card>
           

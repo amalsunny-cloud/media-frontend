@@ -89,7 +89,7 @@ function Category({dropVideoResponse}) {
   return (
     <>
     <div className="d-grid">
-      <Button onClick={handleShow} className="btn btn-primary">Add Category</Button>
+      <Button onClick={handleShow} className="btn btn-primary" style={{borderRadius:"30px"}}>Add Category</Button>
       </div>
 
       <Modal

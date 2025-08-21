@@ -14,7 +14,7 @@ function Home() {
 
   return (
     <>
-      <div className="container mt-5 d-flex justify-content-between mb-3">
+      <div className="container mt-5 d-flex justify-content-between mb-3" >
         <div className="add-videos">
           <Add setUploadVideoResponse={setUploadVideoResponse}/>
         </div>
