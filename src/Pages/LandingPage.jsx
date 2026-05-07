@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Col, Row, Card} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
+import categoriseImg from '../assets/categorise.png'
 function LandingPage() {
   return (
     <>
@@ -54,7 +54,7 @@ function LandingPage() {
           </Card>
 
           <Card style={{ width: '17rem', margin: '15px' }} className="bg-success rounded-4 px-2">
-            <Card.Img variant="top" height="200px" style={{padding:"25px 35px",paddingBottom:"10px"}} src="https://www.svgrepo.com/download/442466/category.svg" />
+            <Card.Img variant="top" height="200px" style={{padding:"25px 35px",paddingBottom:"10px"}} src={categoriseImg} />
             <Card.Body className='d-flex justify-content-center flex-column'>
               <Card.Title className='text-dark text-decoration-underline'>Categorised Video</Card.Title>
               <Card.Text className='text-dark'>
