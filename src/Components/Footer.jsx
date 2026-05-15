@@ -9,6 +9,8 @@ import {
 } from 'mdb-react-ui-kit';
 
 export default function App() {
+
+  const formattedDate = new Date().getFullYear()
   return (
     <MDBFooter className='bg-light text-center text-white mt-5'>
       <MDBContainer className='p-4 pb-0'>
@@ -74,9 +76,9 @@ export default function App() {
         </section>
       </MDBContainer>
 
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2025 Copyright :  
-        <span className='text-dark text-decoration-none'>
+      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.49)' }}>
+        © {formattedDate}  
+        <span className='text-light text-decoration-none'>
            {" "}mediaplayer.com
         </span>
       </div>

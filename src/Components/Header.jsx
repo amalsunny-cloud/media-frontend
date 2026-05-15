@@ -6,7 +6,7 @@ import playImage from '../assets/play.png'
 function Header() {
   return (
     <>
-      <Navbar className='bg-white'>
+      <Navbar className='bg-light'>
         <Container>
           <Link to={'/'} style={{textDecoration:"none"}}>
             <Navbar.Brand href="" className='text-primary fw-bold'>
